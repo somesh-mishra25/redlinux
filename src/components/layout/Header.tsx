@@ -38,7 +38,7 @@ export function Header() {
 {/* Logo */}
 <Link to="/" className="flex items-center">
   <img
-    src="/placeholder.svg"
+    src="/logo-light.png"
     alt="RedLinux Technosolutions Private Limited"
     className="h-8 w-auto"
   />
