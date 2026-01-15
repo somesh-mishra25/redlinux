@@ -1,29 +1,20 @@
-import { Menu } from "@/types/menu";
-
-const menuData: Menu[] = [
+const MenuData = [
   {
-    id: 1,
     title: "Home",
     path: "/",
-    newTab: false,
   },
   {
-    id: 2,
     title: "Services",
-    path: "/services",
-    newTab: false,
+    path: "#features",
   },
   {
-    id: 3,
-    title: "Support",
-    path: "/contact",
-    newTab: false,
+    title: "Pricing",
+    path: "#pricing",
   },
-  // {
-  //   id: 4,
-  //   title: "About US",
-  //   newTab: false,
-  //   path: "/about",
-  // },
+  {
+    title: "Contact",
+    path: "#contact",
+  },
 ];
-export default menuData;
+
+export default MenuData;

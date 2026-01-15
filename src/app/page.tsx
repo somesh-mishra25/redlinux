@@ -1,37 +1,22 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-// import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
-import ScrollUp from "@/components/Common/ScrollUp";
-import Contact from "@/components/Contact";
-import Features from "@/components/Features";
-import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Welcome to PR RedLinux",
-  description:
-    "We are a team of experts in DevOps, Front-End, Backend, and Data Engineering",
-  // other metadata
-};
 
 export default function Home() {
   return (
-    <>
-      <ScrollUp />
-      <Hero />
-      <Features />
-      {/* <Video /> */}
-      {/* <Brands /> */}
-      <AboutSectionOne />
-      <AboutSectionTwo />
-      {/* <Testimonials /> */}
-      {/* <Pricing /> */}
-      {/* <Blog /> */}
-      <Contact />
-    </>
+    <main style={{padding: "60px", fontFamily: "sans-serif"}}>
+      <img src="/images/logo/logo-light.png" width="220" />
+      <h1>RedLinux TechnoSolutions</h1>
+      <p>Cloud, DevOps & Web Solutions Built to Scale</p>
+
+      <h2>Our Services</h2>
+      <ul>
+        <li>AWS & Cloud Architecture</li>
+        <li>DevOps & Kubernetes</li>
+        <li>Web Development (Next.js, React)</li>
+        <li>24x7 Production Support</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>Email: support@prredlinux.com</p>
+      <p>Website: https://www.prredlinux.com</p>
+    </main>
   );
 }
