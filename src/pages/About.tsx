@@ -60,7 +60,7 @@ const leadership = [
 ];
 
 const timeline = [
-  { year: "2012", event: "Founded in Bangalore as a small DevOps consultancy" },
+  { year: "2012", event: "Founded in Indore, Madhya Pradesh as a small DevOps consultancy" },
   { year: "2015", event: "Expanded to cloud services, became AWS Partner" },
   { year: "2018", event: "Reached 50+ enterprise clients globally" },
   { year: "2020", event: "Launched 24/7 Managed Services division" },

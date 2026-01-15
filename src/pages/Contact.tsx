@@ -42,7 +42,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: "Bangalore, Karnataka",
+    details: "Indore, Madhya Pradesh",
     subtext: "India",
   },
   {
