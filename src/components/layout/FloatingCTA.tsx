@@ -2,14 +2,14 @@ import { MessageCircle, Mail } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function FloatingCTA() {
-  const whatsappNumber = "919876543210";
+  const whatsappNumber = "91 7000036189";
   const whatsappMessage = encodeURIComponent("Hello! I'm interested in your DevOps and cloud services.");
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
     <div className="fixed bottom-6 right-6 z-40 flex flex-col gap-3">
       <motion.a
-        href="mailto:contact@prredlinux.com"
+        href="mailto:admin@prredlinux.com"
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 1, duration: 0.3 }}

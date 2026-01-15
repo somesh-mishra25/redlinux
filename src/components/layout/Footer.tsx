@@ -48,18 +48,18 @@ export function Footer() {
             </p>
             <div className="space-y-3">
               <a
-                href="mailto:contact@prredlinux.com"
+                href="mailto:admin@prredlinux.com"
                 className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                contact@prredlinux.com
+                admin@prredlinux.com
               </a>
               <a
-                href="tel:+919876543210"
+                href="tel:+917000036189"
                 className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                +91 98765 43210
+                +91 7000036189
               </a>
               <div className="flex items-start gap-3 text-background/70">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />

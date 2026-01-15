@@ -30,13 +30,13 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    details: "contact@prredlinux.com",
+    details: "admin@prredlinux.com",
     subtext: "We respond within 24 hours",
   },
   {
     icon: Phone,
     title: "Call Us",
-    details: "+91 98765 43210",
+    details: "+91 7000036189",
     subtext: "Mon-Fri, 9AM-6PM IST",
   },
   {
@@ -128,7 +128,7 @@ export default function Contact() {
     }
   };
 
-  const whatsappNumber = "919876543210";
+  const whatsappNumber = "917000036189";
   const whatsappMessage = encodeURIComponent("Hello! I'm interested in your DevOps and cloud services.");
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
@@ -260,7 +260,7 @@ export default function Contact() {
                       type="tel"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 7000036189"
                       className={errors.phone ? "border-destructive" : ""}
                     />
                     {errors.phone && (
