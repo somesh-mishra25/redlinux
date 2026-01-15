@@ -35,14 +35,14 @@ export function Header() {
       <nav className="container-wide mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">R</span>
-            </div>
-            <span className="font-bold text-xl text-foreground">
-              Red<span className="text-primary">Linux</span>
-            </span>
-          </Link>
+{/* Logo */}
+<Link to="/" className="flex items-center">
+  <img
+    src="/placeholder.svg"
+    alt="RedLinux Technosolutions Private Limited"
+    className="h-8 w-auto"
+  />
+</Link>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
